@@ -15,7 +15,7 @@ http:
     max-redirects: 3
     headers:
       Accept: "*/*"
-      User-Agent: nuclei-orthanc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
     matchers-condition: or
     matchers:
       - type: regex
@@ -43,7 +43,7 @@ http:
     max-redirects: 3
     headers:
       Accept: "text/html,*/*;q=0.8"
-      User-Agent: nuclei-orthanc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
     matchers-condition: and
     matchers:
       - type: dsl
@@ -67,7 +67,7 @@ http:
     max-redirects: 2
     headers:
       Accept: application/json,*/*
-      User-Agent: nuclei-orthanc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
     matchers-condition: or
     matchers:
       - type: regex
@@ -92,7 +92,7 @@ http:
     max-redirects: 3
     headers:
       Accept: text/html,*/*;q=0.8
-      User-Agent: nuclei-orthanc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
     matchers-condition: and
     matchers:
       - type: dsl
