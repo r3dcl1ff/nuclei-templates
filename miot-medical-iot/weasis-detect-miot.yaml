@@ -8,7 +8,7 @@ info:
     and the ViewerHub successor (/display/weasis), non-invasive.
   tags: medical,miot,weasis
   metadata:
-    shodan-query: '"/display/weasis" OR http.title:"Weasis"'
+    shodan-query: '"/display/weasis"'
     references:
       - https://github.com/nroduit/weasis-pacs-connector
       - https://weasis.org/en/viewer-hub/
